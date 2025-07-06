@@ -1,0 +1,88 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  background-color: #24647d;
+  color: #fff;
+  height: 5rem;
+  line-height: 5rem;
+  font-style: italic
+}
+h1:hover{
+  background-color: rgb(89, 41, 133);
+  transition: 1s;
+}
+.choice {
+  height: 165px;
+  width: 165px;
+  border-radius: 50%;
+  border-width: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.4s, box-shadow 0.4s;
+}
+
+.choice:hover {
+  background-color: rgb(89, 41, 133);
+  box-shadow: 0 0 20px 5px rgba(89, 41, 133, 0.4);
+  color: #fff;
+}
+img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 5rem;
+  backdrop-filter: blur(0px);
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.score-board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  margin-top: 3rem;
+  gap: 5rem;
+}
+
+.score-board:hover {
+  color: #592985;
+  transition: color 0.5s;
+}
+
+#user-score,
+#comp-score {
+  
+  font-size: 4rem;
+  color: rgb(27, 37, 37);
+}
+
+.msg-container {
+  margin-top: 6rem;
+}
+#msg {
+  background-color: #324b0e;
+  color: #fff;
+  font-size: 2rem;
+  display: inline;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+#msg:hover{
+  background-color: rgb(74, 123, 213);
+  transition: 1s;
+}
