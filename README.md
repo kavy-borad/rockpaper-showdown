@@ -27,8 +27,8 @@ A simple and interactive **Rock Paper Scissors** web game built using **HTML, CS
 
 ## 📸 Screenshot
 
-*(You can insert a screenshot here![Screenshot 2025-07-06 101656](https://github.com/user-attachments/assets/c57149b6-cf6c-4bd7-b7e9-1175a8dffd8c)
- once available)*
+[Screenshot 2025-07-06 101656](https://github.com/user-attachments/assets/c57149b6-cf6c-4bd7-b7e9-1175a8dffd8c)
+ 
 
 ## gitclone web
 https://github.com/kavy-borad/rockpaper-showdown/
